@@ -8,6 +8,11 @@
     background-color: #bebfb9;
   }
 
+  .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
   /*>>>> INICIO HEADER <<<<*/
 
   .header__navbar-efecto {
@@ -109,8 +114,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
   }
 
-
-
   .categorias-top .contenedor-categorias {
     position: relative;
     display: flex;
@@ -179,6 +182,96 @@
   .categorias-top .contenedor-categorias .carta-categoria p {
     color: #333;
   }
+
+  /*>>>> INICIO MEJORES PRODUCTOS <<<<*/
+
+  .productos-top {
+    display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 3rem;
+  }
+
+  .productos-top h1 {
+    width: 90%;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    background-color: #F7EAD2; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px;
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+    border-bottom: 4px solid #BB8F60;
+    color: #333; /* Color llamativo */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+  }
+
+  .contenedor-productos {
+    display: grid;
+	  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	  gap: 5rem;
+    margin-bottom: 20px;
+  }
+
+  .producto-carta {
+    background-color: #fff;
+	  padding: 2rem 3rem;
+	  border-radius: 0.5rem;
+	  cursor: pointer;
+	  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .contenedor-imagen-producto {
+    position:relative;
+  }
+
+  .contenedor-imagen-producto img {
+    width: 100%;
+  }
+
+  .contenedor-cafe h3 {
+    grid-row: 2/3;
+	  grid-column: 1/-1;
+
+	  font-weight: 400;
+	  font-size: 1.6rem;
+	  margin-bottom: 1rem;
+	  cursor: pointer;
+    text-align: center;
+  }
+
+  .contenedor-cafe h3:hover {
+    color:#BB8F60; 
+  }
+
+
+
+  /*>>>> INICIO GALERIA DE FOTOS <<<<*/
+
+  .galeria {
+    display: grid;
+	  grid-template-columns: repeat(4, 1fr);
+	  grid-template-rows: repeat(2, 30rem);
+	  gap: 1.0rem;
+	  margin-bottom: 3rem;
+  }
+
+  .galeria img {
+    width: 100%;
+	  height: 95%;
+	  object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #515546;
+  }
+
+  .galeria-foto1 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+
+  /*>>>> FIN GALERIA DE FOTOS <<<<*/
+
+  /*>>>> INICIO SOBRE NOSOTROS <<<<*/
 
   /*>>>> INICIO FOOTER <<<<*/
 
