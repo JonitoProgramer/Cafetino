@@ -275,6 +275,86 @@
 
   /*>>>> INICIO SOBRE NOSOTROS <<<<*/
 
+  .nosotros {
+    display: flex;
+	  flex-direction: column;
+    gap: 2rem;
+    margin-left: 20px;
+  }
+
+  .sobre-nosotros {
+    display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  gap: 3rem;
+  }
+
+  .carta-entera {
+    display: flex;
+	  flex-direction: column;
+	  gap: 2rem;
+  }
+
+  .contenedor-nosotros .contenedor-imagen-nosotros {
+    border-radius: 0;
+	  cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+  }
+
+  .fotonosotros1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #515546;
+    
+  }
+
+  .fotonosotros2 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 10px 20px #515546;
+    border-radius: 10px;
+  }
+
+  .fotonosotros3 {
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 10px 20px #515546;
+    border-radius: 12px;
+
+  }
+
+  .contenido-nosotros h3 {
+    font-size: 1.8rem;
+	margin-bottom: 1.7rem;
+	color: var(--dark-color);
+	font-weight: 500;
+  margin-left: 80px;
+  }
+
+  .contenido-nosotros h3:hover {
+    color: var(--primary-color);
+	  cursor: pointer;
+  }
+
+  .contenido-nosotros p {
+    margin-top: 1rem;
+	font-size: 1.4rem;
+	color: #777;
+  padding: 20px;
+  }
+
+  .fechanosotros {
+    color: var(--primary-color);
+	font-size: 1.3rem;
+  margin-left: 50px;
+  
+  }
+
+
+
+
+
   /*>>>> INICIO FOOTER <<<<*/
 
   .footer {
