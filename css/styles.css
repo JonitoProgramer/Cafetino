@@ -105,11 +105,12 @@
     width: 100%;
     text-align: center;
     margin-bottom: 0px;
-    background-color: #F7EAD2; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
+    font-size: 1.3cm;
+    /*background-color: #F7EAD2; /* Color de fondo */
+    padding: 0px; /* Espaciado interno */
     border-radius: 10px;
     text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
-    border-bottom: 4px solid #BB8F60;
+    /*border-bottom: 4px solid #BB8F60;
     color: #333; /* Color llamativo */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
   }
@@ -308,7 +309,7 @@
 	  overflow: hidden;
   }
 
-  .fotonosotros1 {
+  .fotonosotros1, .fotonosotros2, .fotonosotros3 {
     width: 320px;
     height: 260px;
     border-radius: 10px;
@@ -316,27 +317,11 @@
     
   }
 
-  .fotonosotros2 {
-    width: 320px;
-    height: 260px;
-    box-shadow: 0 10px 20px #515546;
-    border-radius: 10px;
-  }
-
-  .fotonosotros3 {
-    width: 320px;
-    height: 260px;
-    box-shadow: 0 10px 20px #515546;
-    border-radius: 12px;
-
-
-  }
-
   .contenido-nosotros h3 {
     font-size: 1.8rem;
-	margin-bottom: 1.7rem;
-	color: var(--dark-color);
-	font-weight: 500;
+	  margin-bottom: 1.7rem;
+	  color: var(--dark-color);
+	  font-weight: 500;
   
   }
 
