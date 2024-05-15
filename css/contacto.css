@@ -46,11 +46,11 @@
   }
 
   main {
-    padding-top: 85px;
+    padding-top: 80px;
   }
   .main__vista-principal {
     width: 100%;
-    height: 33rem;
+    height: 10rem;
     background-size: cover;
 
     background-image: linear-gradient(100deg, #000000, #00000020), url(../images/portada\ 4.jpg);
@@ -59,7 +59,7 @@
   }
   .main__vista-principal--titulo {
     color: white;
-    padding: 200px 0 0 150px;
+    padding: 200px 0 0 10px;
     font-family: "Playfair Display", serif;
     font-size: 4rem;
   }
@@ -80,7 +80,7 @@
   .main__vista-principal--titulo-contacto {
     text-align: center;
     font-size: 4rem;
-    padding-top: 150px;
+    padding-top: 200px;
   }
   
   .main__vista-principal--titulo-contacto-span {
@@ -128,6 +128,7 @@
     font-size: 3rem;
     margin-top: 50px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .section-encuentranos__titulo-span {
