@@ -102,17 +102,46 @@
   }
 
   .categorias-top .categoriash1 {
-    width: 100%;
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 0px;
-    font-size: 1.3cm;
-    /*background-color: #F7EAD2; /* Color de fondo */
-    padding: 0px; /* Espaciado interno */
-    border-radius: 10px;
-    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
-    /*border-bottom: 4px solid #BB8F60;
-    color: #333; /* Color llamativo */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+    letter-spacing: .5em;
+    display: inline-block;
+    border: 4px double rgba(0, 0, 0, 0.25);
+    border-width: 4px 0;
+    padding: 0px;
+    top: 18%;
+    left: 50%;
+    width: 100%;
+  
+  }
+
+  .spancategoria {
+    font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-shadow: 0 0 80px black;
+  color: transparent;
+  background: black; /* Cambia el fondo del texto a negro */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  }
+
+  @-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
   }
 
   .categorias-top .contenedor-categorias {
@@ -192,20 +221,53 @@
 	gap: 2rem;
 	margin-bottom: 3rem;
   }
-
-  .productos-top h1 {
-    width: 90%;
-    justify-content: center;
+  .productos-titulo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .productosh1 {
+    text-transform: uppercase;
     text-align: center;
-    margin-left: 60px;
-    margin-bottom: 0px;
-    background-color: #F7EAD2; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 10px;
-    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
-    border-bottom: 4px solid #BB8F60;
-    color: #333; /* Color llamativo */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive;
+    letter-spacing: .5em;
+    
+    border: 4px double rgba(0, 0, 0, 0.25);
+    border-width: 4px 0;
+    padding: 0px;
+    top: 18%;
+    left: 50%;
+    width: 100%;
+    
+    
+  }
+
+  .spanproducto {
+    font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  background-color: blue;
+  text-shadow: 0 0 80px black;
+  color: transparent;
+  background: black; /* Cambia el fondo del texto a negro */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  }
+
+  @-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
   }
 
   .contenedor-productos {
