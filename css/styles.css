@@ -116,10 +116,11 @@
   }
 
   .spancategoria {
-    font: 700 4em/1,Arial;
+    font: 700 4em/1;
     font-size: 1.5cm;
+    font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0;
-  padding: 20px;
+  padding: 10px;
   display:flex;
   justify-content: center;
   margin: 0 auto;
@@ -242,9 +243,11 @@
   }
 
   .spanproducto {
-  font: 700 4em/1 "Oswald", sans-serif;
+  font: 700 4em/1;
+  font-size: 1.5cm;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0;
-  padding: 20px;
+  padding: 10px;
   display:flex;
   justify-content: center;
   text-shadow: 0 0 80px black;
@@ -374,9 +377,11 @@
   }
 
   .spannosotros {
-    font: 700 4em/1 "Oswald", sans-serif;
+    font: 700 4em/1;
+    font-size: 1.5cm;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0;
-  padding: 20px;
+  padding: 10px;
   display:flex;
   justify-content: center;
   text-shadow: 0 0 80px black;
